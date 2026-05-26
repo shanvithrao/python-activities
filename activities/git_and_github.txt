@@ -1,0 +1,56 @@
+==============================================
+         GIT AND GITHUB - AN OVERVIEW
+==============================================
+
+WHAT IS GIT?
+-------------
+Git is a free, open-source distributed version control system (VCS) created
+by Linus Torvalds in 2005. It helps developers track changes in source code
+during software development. Git allows multiple developers to work together
+on the same project without overwriting each other's changes.
+
+Key Features of Git:
+- Distributed: Every developer has a complete copy of the entire project history.
+- Fast: Most operations are performed locally, making it very quick.
+- Branching: Git makes it easy to create, merge, and delete branches.
+- Data Integrity: Every file and commit is checksummed using SHA-1 hashing.
+- Non-linear Development: Supports thousands of parallel branches.
+
+Common Git Terms:
+- Repository (Repo): A folder tracked by Git containing your project files.
+- Commit: A snapshot of changes saved to the project history.
+- Branch: An independent line of development.
+- Merge: Combining changes from one branch into another.
+- Clone: Copying a repository from a remote server to your local machine.
+- Pull: Fetching and merging changes from a remote repository.
+- Push: Sending your committed changes to a remote repository.
+- Staging Area: A space where you prepare changes before committing them.
+
+----------------------------------------------
+
+WHAT IS GITHUB?
+----------------
+GitHub is a cloud-based platform built on top of Git. It provides a web
+interface for hosting Git repositories online. GitHub was launched in 2008
+and acquired by Microsoft in 2018. It is the world's largest platform for
+collaborative software development.
+
+GitHub adds many features on top of Git:
+- Remote Hosting: Store your Git repositories in the cloud.
+- Pull Requests: Propose changes and review code before merging.
+- Issues: Track bugs, feature requests, and tasks.
+- Actions: Automate workflows with CI/CD pipelines.
+- GitHub Pages: Host static websites directly from a repository.
+- Collaboration: Multiple users can fork, star, and contribute to projects.
+
+Difference Between Git and GitHub:
+- Git is the tool (version control system).
+- GitHub is the service (platform for hosting Git repositories online).
+- You can use Git without GitHub, but GitHub requires Git.
+
+Popular Alternatives to GitHub:
+- GitLab
+- Bitbucket
+- Azure DevOps
+
+==============================================
